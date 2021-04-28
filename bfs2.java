@@ -25,7 +25,7 @@ public class bfs2 {
 					myqueue.add(next);
 				}
 			}
-
+ 
 		}
 
 	}
@@ -41,6 +41,7 @@ public class bfs2 {
 			Graph[u][v] = Graph[v][u] = 1;
 		}
 		sc.close();
+		
 		bfs(0);
 
 	}
